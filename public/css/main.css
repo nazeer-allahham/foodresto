@@ -1,0 +1,87 @@
+html, body 
+{
+    font-family: 'Arial Rounded MT' !important;
+}
+
+.site-cover
+{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#home-section  .site-heading,
+#home-section  .site-subheading
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.social-networks-item 
+{
+    width: 48px;
+    height: 48px;
+    margin: 2px 5px;
+    border-radius: 24px !important;
+    text-align: center;
+    transition: padding 1s ease-in-out;
+    opacity: .75;
+}
+
+.social-networks-item:hover {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    opacity: 1.0;
+}
+
+
+.meal .image {
+    width:120px;
+    height: 120px;
+    margin: 2px 4px ;
+}
+
+.meal .image:first-child {
+    margin-left: 0;
+}
+
+.meal .image:last-child {
+    margin-right: 0;
+}
+
+.adapter 
+{
+    width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.adapter .adapter-item {
+    width: 50%;
+    height: 50%;
+    transition: all 2s ease-in-out;
+    padding: 0 !important;
+}
+
+.adapter .adapter-item .adapter-item-content {
+    width: 90% !important;
+    height: 90%;
+}
+
+.adapter .adapter-item .adapter-item-content > div {
+    width: 90%;
+    height: 90%;
+    margin: auto auto;
+    opacity: .8;
+    background-color: #333;
+    transition: width 0.4s ease-in-out;
+}
+
+.adapter .adapter-item .adapter-item-content > div:hover {
+    width: 95% !important;
+    line-height: 24px !important;
+    margin: 12px 8px;
+    opacity: 1.0;
+}
